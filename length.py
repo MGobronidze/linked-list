@@ -15,12 +15,14 @@ def find_length(head):
 
 # Driver code to test the find_length function
 if __name__ == "__main__":
-    # Creating linked list: 1 -> 2 -> 3 -> 4
+    # Creating linked list: 1 -> 2 -> 3 -> 4 -> 5
     head = Node(1)
     head.next = Node(2)
     head.next.next = Node(3)
     head.next.next.next = Node(4)
-
+    head.next.next.next.next = Node(5)
+    
+    
     # Finding the length of the linked list
     length = find_length(head)
     print("The length of the linked list is:", length)

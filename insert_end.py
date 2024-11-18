@@ -29,10 +29,10 @@ if __name__ == "__main__":
     head = None
 
     # Insert nodes at the end of the linked list
-    head = insert_at_end(head, 1)
-    head = insert_at_end(head, 2)
-    head = insert_at_end(head, 3)
-    head = insert_at_end(head, 4)
+    head = insert_at_end(head, [1,2])
+    head = insert_at_end(head, [3,4,5])
+    head = insert_at_end(head, [1,2,3,4])
+    head = insert_at_end(head, [1,2,34])
 
     # Display the updated linked list
     print("Linked list after inserting nodes at the end:")
